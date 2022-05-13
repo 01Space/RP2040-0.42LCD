@@ -13,7 +13,12 @@ Install Arduino IDE and install pico resources by adding line "https://github.co
 Via Arduino IDE Tools/Board / Board Manager search for pico and choose Raspberry Pi Pico/RP2040 version 2.0.1 to install it.
 # The following Arduino libraries need to be installed（via option tools / Manage Libraries in Arduino IDE）
 
-u8g2
+u8g2(Wire.cpp Need modification，Only the last two lines need to be modified.)
+//TwoWire Wire(i2c0, PIN_WIRE0_SDA, PIN_WIRE0_SCL);
+//TwoWire Wire1(i2c1, PIN_WIRE1_SDA, PIN_WIRE1_SCL);
+Modified into
+TwoWire Wire(i2c1, PIN_WIRE1_SDA, PIN_WIRE1_SCL);
+TwoWire Wire1(i2c0, PIN_WIRE0_SDA, PIN_WIRE0_SCL);
 
 Adafruit NeoPixel 
 
