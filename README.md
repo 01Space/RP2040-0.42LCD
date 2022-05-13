@@ -1,18 +1,10 @@
 # ESP32-RP2040-0.42OLED 
 
-![image](https://github.com/01Space/ESP32-C3-0.42LCD/blob/main/image/ESP32-C3-0.42LCD.jpg)
-
-
-![image](https://github.com/01Space/ESP32-C3-0.42LCD/blob/main/image/SCD41_CO2.jpg)
-
-
-![image](https://github.com/01Space/ESP32-C3-0.42LCD/blob/main/image/SCD41_CO2_sensor.jpg)
-
+![image](https://github.com/01Space/RP2040-0.42LCD/blob/main/image/RP2040-0.42LCD.jpg)
 
 
 # General Flashing Instructions:
 
-Install driver with zadig as mentioned above.
 Install Arduino IDE and install espressif resources by adding line "https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json" to Additional Boards Manager URLs in Arduino IDE Files / Preferences.
 Via Arduino IDE Tools/Board / Board Manager search for ESP32 and choose Espressif Systems version 2.0.3 to install it.
 # The following Arduino libraries need to be installed（via option tools / Manage Libraries in Arduino IDE）
