@@ -16,6 +16,7 @@ Via Arduino IDE Tools/Board / Board Manager search for pico and choose Raspberry
 u8g2(Wire.cpp Need modification，Only the last two lines need to be modified.) 
 
 Arduino15\packages\rp2040\hardware\rp2040\1.13.1\libraries\Wire\src This is under this directory
+![image](https://github.com/01Space/RP2040-0.42LCD/blob/main/image/Arduino15.png)
 
 //TwoWire Wire(i2c0, PIN_WIRE0_SDA, PIN_WIRE0_SCL);
 
