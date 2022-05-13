@@ -6,7 +6,9 @@
 
 
 # General Flashing Instructions:
-https://github.com/earlephilhower/arduino-pico
+
+https://github.com/earlephilhower/arduino-pico This link has a very detailed description
+
 Install Arduino IDE and install pico resources by adding line "https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json" to Additional Boards Manager URLs in Arduino IDE Files / Preferences.
 Via Arduino IDE Tools/Board / Board Manager search for pico and choose Raspberry Pi Pico/RP2040 version 2.0.1 to install it.
 # The following Arduino libraries need to be installed（via option tools / Manage Libraries in Arduino IDE）
@@ -14,9 +16,6 @@ Via Arduino IDE Tools/Board / Board Manager search for pico and choose Raspberry
 u8g2
 
 Adafruit NeoPixel 
-
-
-
 
 # Upload sketch from Arduino IDE:
 
