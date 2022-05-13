@@ -500,6 +500,9 @@ void draw(void) {
 
 
 void setup(void) {
+  Wire.setSDA(22);
+  Wire.setSCL(23);
+  Wire.begin();
   u8g2.begin();
 }
 
