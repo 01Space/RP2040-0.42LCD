@@ -358,7 +358,9 @@ uint32_t lcg_rnd(void) {
 }
 
 void setup(void) {
-  
+  Wire.setSDA(22);
+  Wire.setSCL(23);
+  Wire.begin();
   u8g2.begin();
   
 }
