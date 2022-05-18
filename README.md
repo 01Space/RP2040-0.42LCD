@@ -4,9 +4,9 @@
 
 ![image](https://github.com/01Space/RP2040-0.42LCD/blob/main/image/RP2040-0.42LCD.jpg)
 
-![image](https://github.com/01Space/RP2040-0.42LCD/blob/main/image/RP2040-0.42LCD.jpg)
+![image](https://github.com/01Space/RP2040-0.42LCD/blob/main/image/CGg0wowU.jpg)
 
-![image](https://github.com/01Space/RP2040-0.42LCD/blob/main/image/RP2040-0.42LCD.jpg)
+![image](https://github.com/01Space/RP2040-0.42LCD/blob/main/image/jka8Tb3U.jpg)
 
 
 # General Flashing Instructions:
