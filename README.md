@@ -69,6 +69,20 @@ AnimatedGIF
 
 And many many others who haven't been mentioned....
 
+# Resources required for programming in CircuitPython
+In order to program your Raspberry Pi Pico with CircuitPython, you may have to flash it first. To do this, you need to download the *.uf2 file from https://circuitpython.org/board/raspberry_pi_pico/ and copy it to your Pi Pico.
+
+Furthermore, the libraries are also required for the CircuitPython version used. In my case, I flashed the Pi Pico in version 7.11 and download the examples for version 7.x from https://circuitpython.org/libraries.
+
+From this bundle of libraries we need the files / directory
+
+adafruit_ssd1306.mpy
+adafruit_framebuf.mpy
+adafruit_display_text
+These files/this directory will be/will be placed in the folder "CIRCUITPY (G:) lib".
+
+As well as we also need a binary font file for the representation of text. We download this file from the GitHub repository adafruit / Adafruit_CircuitPython_framebuf from the examples and save it in the same path as the file "code.py" on the drive "CIRCUITPY".
+
 # Contact 01Space
 facebook:Jiale Xu
 
