@@ -70,7 +70,7 @@ AnimatedGIF
 And many many others who haven't been mentioned....
 
 # Resources required for programming in CircuitPython
-In order to program your Raspberry Pi Pico with CircuitPython, you may have to flash it first. To do this, you need to download the *.uf2 file from https://circuitpython.org/board/raspberry_pi_pico/ and copy it to your Pi Pico.
+In order to program your RP2040-0.42OLED with CircuitPython, you may have to flash it first. To do this, you need to download the *.uf2 file from https://circuitpython.org/board/raspberry_pi_pico/ and copy it to your Pi Pico.
 
 Furthermore, the libraries are also required for the CircuitPython version used. In my case, I flashed the Pi Pico in version 7.11 and download the examples for version 7.x from https://circuitpython.org/libraries.
 
