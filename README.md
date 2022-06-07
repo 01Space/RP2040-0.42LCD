@@ -73,7 +73,8 @@ And many many others who haven't been mentioned....
 
 This link has detailed steps
 
-https://github.com/01Space/ESP32-C3-0.42LCD/tree/main/micropython/image
+https://github.com/01Space/RP2040-0.42LCD/tree/main/CircuitPython/image
+
 In order to program your RP2040-0.42OLED with CircuitPython, you may have to flash it first. To do this, you need to download the *.uf2 file from https://circuitpython.org/board/raspberry_pi_pico/ and copy it to your Pi Pico.
 
 Furthermore, the libraries are also required for the CircuitPython version used. In my case, I flashed the Pi Pico in version 7.11 and download the examples for version 7.x from https://circuitpython.org/libraries.
