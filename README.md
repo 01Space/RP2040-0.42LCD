@@ -82,7 +82,7 @@ Installing MicroPython on Raspberry Pi Pico
 
 2. Open the RPI-RP2 drive that appears in the Drives tab.
 
-3. Download the MicroPython UF2 file 
+3. Download the MicroPython UF2 file (https://micropython.org/download/rp2-pico/)
 
 4. Drag and drop the UF2 file onto the RPI-RP2 drive. The Raspberry Pi Pico with RPwill reboot and will now run MicroPython.
 
@@ -95,23 +95,6 @@ Installing MicroPython on Raspberry Pi Pico
 
 4. After successful installation, the MicroPython version and Raspberry board will appear in the Python Shell. To test we can write a quick print function to say “Hello World”. Press Enter to run the code. You will get Hello World as a response.
 
-5. After successful installation, the MicroPython version and Raspberry board will appear in the Python Shell. To test we can write a quick print function to say “Hello World”. Press Enter to run the code. You will get Hello World as a response.
-
-
-https://github.com/01Space/RP2040-0.42LCD/tree/main/CircuitPython/image
-
-In order to program your RP2040-0.42OLED with CircuitPython, you may have to flash it first. To do this, you need to download the *.uf2 file from https://circuitpython.org/board/raspberry_pi_pico/ and copy it to your Pi Pico.
-
-Furthermore, the libraries are also required for the CircuitPython version used. In my case, I flashed the Pi Pico in version 7.11 and download the examples for version 7.x from https://circuitpython.org/libraries.
-
-From this bundle of libraries we need the files / directory
-
-adafruit_ssd1306.mpy
-adafruit_framebuf.mpy
-adafruit_display_text
-These files/this directory will be/will be placed in the folder "CIRCUITPY (G:) lib".
-
-As well as we also need a binary font file for the representation of text. We download this file from the GitHub repository adafruit / Adafruit_CircuitPython_framebuf from the examples and save it in the same path as the file "code.py" on the drive "CIRCUITPY".
 
 # programming in CircuitPython
 
