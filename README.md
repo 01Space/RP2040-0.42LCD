@@ -11,6 +11,8 @@
 
 # General Flashing Instructions:
 
+# Using earlephilhower/arduino-pico
+
 https://github.com/earlephilhower/arduino-pico This link has a very detailed description
 
 Install Arduino IDE and install pico resources by adding line "https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json" to Additional Boards Manager URLs in Arduino IDE Files / Preferences.
@@ -46,16 +48,16 @@ After the first upload, this should not be necessary as the core has auto-reset 
 
 In some cases the Pico will encounter a hard hang and its USB port will not respond to the auto-reset request. Should this happen, just follow the initial procedure of holding the BOOTSEL button down while plugging in the Pico to enter the ROM bootloader.
 
+# Using arduinocore mbed
 
+With ArduinoCore-mbed Release 2.0.0, Arduino now support Raspberry Pi Pico officially. To program Raspberry Pi Pico in Arduino framework, install Arduino Mbed OS RP2040 Boards in Arduino IDE's Library Manager.
+
+![image](https://github.com/01Space/RP2040-0.42LCD/blob/main/image/Arduino%20Mbed%20OS%20RP2040%20Boards.jpg)
 # Open Source / Contributors
 
 Larry Bank (gif_01space，ArduinoCore-mbed)
 
 Larry Bank (scd41_01space，ArduinoCore-mbed)
-
-With ArduinoCore-mbed Release 2.0.0, Arduino now support Raspberry Pi Pico officially. To program Raspberry Pi Pico in Arduino framework, install Arduino Mbed OS RP2040 Boards in Arduino IDE's Library Manager.
-
-![image](https://github.com/01Space/RP2040-0.42LCD/blob/main/image/Arduino%20Mbed%20OS%20RP2040%20Boards.jpg)
 
 The following libraries need to be installed
 
