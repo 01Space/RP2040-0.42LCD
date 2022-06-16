@@ -95,10 +95,6 @@ Installing MicroPython on Raspberry Pi Pico
 
 4. After successful installation, the MicroPython version and Raspberry board will appear in the Python Shell. To test we can write a quick print function to say “Hello World”. Press Enter to run the code. You will get Hello World as a response.
  
-From this bundle of libraries we need the files / directory
-
-ssd1306.py
-
 # programming in CircuitPython
 
 To program the Raspberry Pi Pico using Micropython, you can either use:
