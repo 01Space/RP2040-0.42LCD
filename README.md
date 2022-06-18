@@ -55,6 +55,8 @@ With ArduinoCore-mbed Release 2.0.0, Arduino now support Raspberry Pi Pico offic
 ![image](https://github.com/01Space/RP2040-0.42LCD/blob/main/image/Arduino%20Mbed%20OS%20RP2040%20Boards.jpg)
 # Open Source / Contributors
 
+Ciro Cattuto ( CircuitPython-game,CircuitPython)
+
 Larry Bank (gif_01space，ArduinoCore-mbed)
 
 Larry Bank (scd41_01space，ArduinoCore-mbed)
