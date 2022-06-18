@@ -123,6 +123,9 @@ These files/this directory will be/will be placed in the folder "CIRCUITPY (G:) 
 As well as we also need a binary font file for the representation of text. We download this file from the GitHub repository adafruit / Adafruit_CircuitPython_framebuf from the examples and save it in the same path as the file "code.py" on the drive "CIRCUITPY".
 
 # Contact 01Space
+
+https://discord.gg/zEEvySU3
+
 facebook:Jiale Xu
 
 twitter:yongxiangxu251
