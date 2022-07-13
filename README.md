@@ -125,7 +125,7 @@ As well as we also need a binary font file for the representation of text. We do
 # Community
 
 We have both a Discord Server 
-https://discord.gg/zEEvySU3
+https://discord.gg/qMDNZbX9rE
 
 # Contact 01Space
 
